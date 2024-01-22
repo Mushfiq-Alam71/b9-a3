@@ -37,9 +37,81 @@
       }
     </style>
   </head>
-  <body>
-    <header></header>
-    <main></main>
+  <body class="font-manrope">
+    <header class="container mx-auto mt-6 lg:mt-12 lg:w-full">
+      <div class="navbar bg-base-100 font-bold">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li><a class="text-[#FF4240]">Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Page</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <a
+            class="btn btn-ghost text-2xl lg:text-4xl text-[#131318] font-extrabold"
+            >Hockey<span class="text-[#FF4240]">'</span>s</a
+          >
+        </div>
+        <div class="navbar-center hidden lg:flex font-bold">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="text-[#FF4240] text-lg">Home</a></li>
+            <li><a class="text-lg">About</a></li>
+            <li><a class="text-lg">Page</a></li>
+            <li><a class="text-lg">Blog</a></li>
+            <li><a class="text-lg">Contact</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <!-- Search -->
+          <div class="search-icon flex lg:ml-6 pr-6">
+            <a href="#" class="p-2 text-gray-400 hover:text-gray-500">
+              <span class="sr-only font-bold">Search</span>
+              <svg
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                />
+              </svg>
+            </a>
+          </div>
+          <a
+            class="btn font-bold bg-[#FF4240] text-white lg:text-xl lg:h-14 lg:w-36"
+            >Get Ticket</a
+          >
+        </div>
+      </div>
+    </header>
+    <main class="container mx-auto"></main>
     <footer></footer>
   </body>
 </html>
